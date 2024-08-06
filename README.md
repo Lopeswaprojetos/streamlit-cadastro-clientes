@@ -38,6 +38,7 @@ Abra o navegador e acesse a URL local fornecida (geralmente http://localhost:850
 
 ## Estrutura dos Arquivos
 **aplicativo.py**: Script principal da aplicação Streamlit.
+
 **cliente.csv**: Arquivo onde os dados dos clientes são armazenados.
 
 ## Contribuição
