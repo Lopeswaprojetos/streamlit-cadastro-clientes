@@ -1,21 +1,44 @@
 
-# Streamlit Cadastro de Clientes
-
-Um aplicativo web simples para cadastro de clientes utilizando Streamlit.
+## Cadastro de Clientes com Streamlit
+Este é um projeto desenvolvido com Streamlit, uma biblioteca Python para criar aplicativos web interativos de forma rápida e fácil. O objetivo deste projeto é criar uma interface simples para o cadastro de clientes, onde é possível inserir informações como nome, endereço, data de nascimento e categoria do cliente.
 
 ## Descrição
 
-Este projeto é um exemplo de como criar uma aplicação de cadastro de clientes usando Streamlit. O usuário pode inserir informações como nome, endereço, data de nascimento e tipo de cliente, e essas informações são armazenadas em um arquivo CSV.
+Este projeto é uma aplicação web interativa desenvolvida com Streamlit. Ele permite que os usuários cadastrem informações de clientes em um arquivo CSV. A aplicação inclui campos para nome, endereço, data de nascimento e categoria do cliente, e armazena essas informações de forma persistente.
 
 ## Funcionalidades
 
-- **Entrada de Dados:** Os usuários podem inserir o nome, endereço, data de nascimento e tipo de cliente.
-- **Armazenamento:** Os dados são armazenados em um arquivo CSV.
+- **Cadastro de clientes**: Permite o registro de informações dos clientes.
+- **Interface simples**: Usando Streamlit para criar uma interface interativa e intuitiva.
+
+## Tecnologias Utilizadas
+**Python**: Linguagem de programação utilizada para o desenvolvimento do projeto.
+**Streamlit**: Biblioteca Python para construção de interfaces web interativas.
+**CSV**: Formato de arquivo usado para armazenar os dados dos clientes.
+
 
 ## Como Rodar o Projeto
 
-1. **Clone o Repositório:**
+ **Pré-requisitos**
+Python: Certifique-se de que o Python está instalado em sua máquina.
+Streamlit: Instale a biblioteca Streamlit. Você pode instalá-la usando pip:
+------- pip install streamlit
 
-   ```bash
-   git clone https://github.com/seu-usuario/streamlit-cadastro-clientes.git
-   cd streamlit-cadastro-clientes
+**Instruções**
+Clone o repositório:
+git clone https://github.com/Lopeswaprojetos/streamlit-cadastro-clientes.git
+
+Acesse o diretório do projeto:
+cd streamlit-cadastro-clientes
+
+Execute o aplicativo Streamlit:
+streamlit run aplicativo.py
+
+Abra o navegador e acesse a URL local fornecida (geralmente http://localhost:8501) para interagir com a aplicação.
+
+## Estrutura dos Arquivos
+**aplicativo.py**: Script principal da aplicação Streamlit.
+**cliente.csv**: Arquivo onde os dados dos clientes são armazenados.
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
